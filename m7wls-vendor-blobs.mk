@@ -17,28 +17,6 @@
 PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/bin/akmd:system/bin/akmd \
 	vendor/htc/m7wls/proprietary/bin/bma150_usr:system/bin/bma150_usr \
-	vendor/htc/m7wls/proprietary/bin/rild:system/bin/rild \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
-	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
-	vendor/htc/m7wls/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-	vendor/htc/m7wls/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
-	vendor/htc/m7wls/proprietary/lib/hw/nfc.m7wls.so:system/lib/hw/nfc.m7wls.so \
-	vendor/htc/m7wls/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-	vendor/htc/m7wls/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
-	vendor/htc/m7wls/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/htc/m7wls/proprietary/lib/hw/sensors.m7wls.so:system/lib/hw/sensors.m7wls.so \
-	vendor/htc/m7wls/proprietary/lib/libimu.so:system/lib/libimu.so \
-	vendor/htc/m7wls/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-	vendor/htc/m7wls/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-	vendor/htc/m7wls/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-	vendor/htc/m7wls/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-	vendor/htc/m7wls/proprietary/etc/agps_rm:system/etc/agps_rm \
         vendor/htc/m7wls/proprietary/bin/cand:system/bin/cand \
 	vendor/htc/m7wls/proprietary/bin/charging:system/bin/charging \
         vendor/htc/m7wls/proprietary/bin/cir_fw_update:system/bin/cir_fw_update \
@@ -57,20 +35,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7wls/proprietary/bin/qcks:system/bin/qcks \
 	vendor/htc/m7wls/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/htc/m7wls/proprietary/bin/qseecomd:system/bin/qseecomd \
+        vendor/htc/m7wls/proprietary/bin/rild:system/bin/rild \
 	vendor/htc/m7wls/proprietary/bin/thermald:system/bin/thermald \
-	vendor/htc/m7wls/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-	vendor/htc/m7wls/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-	vendor/htc/m7wls/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
-	vendor/htc/m7wls/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-	vendor/htc/m7wls/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
-	vendor/htc/m7wls/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-	vendor/htc/m7wls/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-	vendor/htc/m7wls/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
-	vendor/htc/m7wls/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-	vendor/htc/m7wls/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-	vendor/htc/m7wls/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/htc/m7wls/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
-	vendor/htc/m7wls/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/htc/m7wls/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/htc/m7wls/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/htc/m7wls/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -84,6 +50,39 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/htc/m7wls/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/htc/m7wls/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+	vendor/htc/m7wls/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+	vendor/htc/m7wls/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
+	vendor/htc/m7wls/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
+	vendor/htc/m7wls/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+	vendor/htc/m7wls/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
+	vendor/htc/m7wls/proprietary/lib/hw/nfc.m7wls.so:system/lib/hw/nfc.m7wls.so \
+	vendor/htc/m7wls/proprietary/lib/hw/sensors.m7wls.so:system/lib/hw/sensors.m7wls.so \
+	vendor/htc/m7wls/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
+	vendor/htc/m7wls/proprietary/lib/libimu.so:system/lib/libimu.so \
+	vendor/htc/m7wls/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+	vendor/htc/m7wls/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+	vendor/htc/m7wls/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+	vendor/htc/m7wls/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
+	vendor/htc/m7wls/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+	vendor/htc/m7wls/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+	vendor/htc/m7wls/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+	vendor/htc/m7wls/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+	vendor/htc/m7wls/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
+	vendor/htc/m7wls/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+	vendor/htc/m7wls/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+	vendor/htc/m7wls/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
+	vendor/htc/m7wls/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+	vendor/htc/m7wls/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/htc/m7wls/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/htc/m7wls/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+	vendor/htc/m7wls/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/htc/m7wls/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/htc/m7wls/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/htc/m7wls/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -120,9 +119,12 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/htc/m7wls/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/htc/m7wls/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+	vendor/htc/m7wls/proprietary/etc/agps_rm:system/etc/agps_rm \
 	vendor/htc/m7wls/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	vendor/htc/m7wls/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
 	vendor/htc/m7wls/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+	vendor/htc/m7wls/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
+	vendor/htc/m7wls/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/htc/m7wls/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/htc/m7wls/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/htc/m7wls/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -131,6 +133,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/htc/m7wls/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/htc/m7wls/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
+	vendor/htc/m7wls/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
 	vendor/htc/m7wls/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
 	vendor/htc/m7wls/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
 	vendor/htc/m7wls/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
@@ -139,4 +142,4 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/htc/m7wls/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/htc/m7wls/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-	vendor/htc/m7wls/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
+	vendor/htc/m7wls/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
