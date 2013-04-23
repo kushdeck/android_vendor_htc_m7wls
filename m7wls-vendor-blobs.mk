@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/htc/m7wls/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/htc/m7wls/proprietary/bin/thermald:system/bin/thermald \
-	vendor/htc/m7wls/proprietary/bin/zchgd:system/bin/zchgd \
 	vendor/htc/m7wls/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/htc/m7wls/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/htc/m7wls/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
@@ -73,7 +72,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
 	vendor/htc/m7wls/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/htc/m7wls/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-	vendor/htc/m7wls/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 	vendor/htc/m7wls/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/htc/m7wls/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/htc/m7wls/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
@@ -82,14 +80,10 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/htc/m7wls/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/htc/m7wls/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-	vendor/htc/m7wls/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-        vendor/htc/m7wls/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
-	vendor/htc/m7wls/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
 	vendor/htc/m7wls/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/htc/m7wls/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/htc/m7wls/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/htc/m7wls/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/htc/m7wls/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
 	vendor/htc/m7wls/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/htc/m7wls/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/htc/m7wls/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
