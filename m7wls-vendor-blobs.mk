@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
 	vendor/htc/m7wls/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
 	vendor/htc/m7wls/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/htc/m7wls/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
 	vendor/htc/m7wls/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/htc/m7wls/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
 	vendor/htc/m7wls/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
