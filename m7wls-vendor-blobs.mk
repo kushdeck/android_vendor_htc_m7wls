@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/bin/akmd:system/bin/akmd \
+	vendor/htc/m7wls/proprietary/bin/bluetoothd:system/bin/bluetoothd \
 	vendor/htc/m7wls/proprietary/bin/bma150_usr:system/bin/bma150_usr \
         vendor/htc/m7wls/proprietary/bin/cand:system/bin/cand \
 	vendor/htc/m7wls/proprietary/bin/charging:system/bin/charging \
@@ -65,6 +66,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/hw/nfc.m7wls.so:system/lib/hw/nfc.m7wls.so \
 	vendor/htc/m7wls/proprietary/lib/hw/sensors.m7wls.so:system/lib/hw/sensors.m7wls.so \
 	vendor/htc/m7wls/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
+	vendor/htc/m7wls/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
 	vendor/htc/m7wls/proprietary/lib/libimu.so:system/lib/libimu.so \
 	vendor/htc/m7wls/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
 	vendor/htc/m7wls/proprietary/lib/libmllite.so:system/lib/libmllite.so \
