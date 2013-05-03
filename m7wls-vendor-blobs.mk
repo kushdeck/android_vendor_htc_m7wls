@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
 	vendor/htc/m7wls/proprietary/lib/hw/nfc.m7wls.so:system/lib/hw/nfc.m7wls.so \
 	vendor/htc/m7wls/proprietary/lib/hw/sensors.m7wls.so:system/lib/hw/sensors.m7wls.so \
-	vendor/htc/m7wls/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
 	vendor/htc/m7wls/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
 	vendor/htc/m7wls/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
 	vendor/htc/m7wls/proprietary/lib/libimu.so:system/lib/libimu.so \
