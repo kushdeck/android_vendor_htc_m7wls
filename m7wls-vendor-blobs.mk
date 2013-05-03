@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/hw/nfc.m7wls.so:system/lib/hw/nfc.m7wls.so \
 	vendor/htc/m7wls/proprietary/lib/hw/sensors.m7wls.so:system/lib/hw/sensors.m7wls.so \
 	vendor/htc/m7wls/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+	vendor/htc/m7wls/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
 	vendor/htc/m7wls/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
 	vendor/htc/m7wls/proprietary/lib/libimu.so:system/lib/libimu.so \
 	vendor/htc/m7wls/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
