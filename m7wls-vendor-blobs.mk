@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7wls/proprietary/bin/qcks:system/bin/qcks \
 	vendor/htc/m7wls/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/htc/m7wls/proprietary/bin/qseecomd:system/bin/qseecomd \
+        vendor/htc/m7wls/proprietary/bin/rild:system/bin/rild \
 	vendor/htc/m7wls/proprietary/bin/thermald:system/bin/thermald \
 	vendor/htc/m7wls/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/htc/m7wls/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -128,6 +129,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7wls/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
 	vendor/htc/m7wls/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/htc/m7wls/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
+	vendor/htc/m7wls/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/htc/m7wls/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/htc/m7wls/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/htc/m7wls/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
